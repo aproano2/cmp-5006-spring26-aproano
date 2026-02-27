@@ -1,0 +1,83 @@
+pabseb@AsusPablo:~$ nc verbal-sleep.picoctf.net 62684
+
+*******************************************
+***             Part 2                  ***
+***    The Mystery of the CLONED RAT    ***
+*******************************************
+
+DRAT! The evil Dr. Lacktoes Inn Tolerant's clone was able to guess the cheese last time! I guess simple ciphers aren't good hashing methods. But now I've strengthened my encryption scheme so that now ONLY SQUEEXY can guess it...
+
+Here's my secret cheese -- if you're Squeexy, you'll be able to guess it:  0d0b4e33c20cb9a03c2e115199810388d55da48b03a36f2724a6f44c3cc6641f
+
+Commands: (g)uess my cheese
+What would you like to do?
+g
+
+   _   _
+  (q\_/p)
+   /. .\.-.....-.     ___,
+  =\_t_/=     /  `\  (
+    )\ ))__ __\   |___)
+   (/-(/`  `nn---'
+
+SQUEAK SQUEAK SQUEAK
+
+         _   _
+        (q\_/p)
+         /. .\
+  ,__   =\_t_/=
+     )   /   \
+    (   ((   ))
+     \  /\) (/\
+      `-\  Y  /
+         nn^nn
+
+
+Is that you, Squeexy? Are you ready to GUESS...MY...CHEEEEEEESE?
+Remember, this is my encrypted cheese:  0d0b4e33c20cb9a03c2e115199810388d55da48b03a36f2724a6f44c3cc6641f
+So...what's my cheese?
+Anejo Enchilado
+Annnnd...what's my salt?
+74
+
+         _   _
+        (q\_/p)
+         /. .\         __
+  ,__   =\_t_/=      .'o O'-.
+     )   /   \      / O o_.-`|
+    (   ((   ))    /O_.-'  O |
+     \  /\) (/\    | o   o  o|
+      `-\  Y  /    |o   o O.-`
+         nn^nn     | O _.-'
+                   '--`
+
+munch...
+
+         _   _
+        (q\_/p)
+         /. .\         __
+  ,__   =\_t_/=      .'o O'-.
+     )   /   \      / O o_.-`|
+    (   ((   ))      ).-'  O |
+     \  /\) (/\      )   o  o|
+      `-\  Y  /    |o   o O.-`
+         nn^nn     | O _.-'
+                   '--`
+
+munch...
+
+         _   _
+        (q\_/p)
+         /. .\         __
+  ,__   =\_t_/=      .'o O'-.
+     )   /   \      / O o_.-`|
+    (   ((   ))        )'  O |
+     \  /\) (/\          )  o|
+      `-\  Y  /         ) O.-`
+         nn^nn        ) _.-'
+                   '--`
+
+MUNCH.............
+
+YUM! MMMMmmmmMMMMmmmMMM!!! Yes...yesssss! That's my cheese!
+Here's the password to the cloning room:  picoCTF{cHeEsY80eed518}
