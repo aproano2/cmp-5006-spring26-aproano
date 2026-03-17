@@ -1,0 +1,3 @@
+Use este link para poder hacer una comprobacion del algoritmo:https://www.dcode.fr/cifrado-rot
+
+Este tiene mayor cantidad de posibilidades pero igual logra adivinar la palabra
