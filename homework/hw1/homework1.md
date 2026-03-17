@@ -50,4 +50,4 @@ Show all your work for the following problems based on our class materials.
 ### Section 4: PicoCTF
 Complete the assignment in PicoCTF platform. 
 - Submit your Python scripts and the flags.
-- For eaach problem you will attempt two different methods to solve. 
+- For each problem you will attempt two different methods to solve.
