@@ -1,5 +1,9 @@
 # Homework 2: Securing the AutoDrive Firmware Pipeline
 
+## Autores:
+- Andrés Proaño 
+- Pablo Alvarado
+
 Entrega en formato de notebook academico para el caso AutoDrive, centrada en generacion manual de RSA, hashes criptograficos, certificados digitales, firmas digitales y diseno de un protocolo seguro de actualizacion de firmware.
 
 ## Contenido
