@@ -1,0 +1,30 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa_lab
+    ports:
+      - "8080:80"
+    environment:
+      - MYSQL_HOSTNAME=db
+      - MYSQL_DATABASE=dvwa
+      - MYSQL_USER=dvwa
+      - MYSQL_PASSWORD=dvwa
+      - MYSQL_ROOT_PASSWORD=root
+      - DVWA_SECURITY_LEVEL=low
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.5
+    container_name: dvwa_db
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=dvwa
+      - MYSQL_USER=dvwa
+      - MYSQL_PASSWORD=dvwa
+    volumes:
+      - dvwa_db_data:/var/lib/mysql
+
+volumes:
+  dvwa_db_data:

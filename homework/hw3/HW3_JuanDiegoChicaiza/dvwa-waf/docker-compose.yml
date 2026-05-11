@@ -1,0 +1,16 @@
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: hw3-dvwa
+    ports:
+      - "8080:80"
+
+  waf:
+    image: nginx:1.27-alpine
+    container_name: hw3-waf
+    depends_on:
+      - dvwa
+    ports:
+      - "8081:80"
+    volumes:
+      - ./waf/nginx.conf:/etc/nginx/conf.d/default.conf:ro
